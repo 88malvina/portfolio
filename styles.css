@@ -12,7 +12,7 @@ body {
 	font-size: 16px;
 }
 
-.chef, .sidebar, .container, .header, .content, .featured {
+.chef, .sidebar, .container, header, .content, footer {
 	box-sizing: border-box;
 }
 
@@ -62,7 +62,7 @@ h1, h2, h3 {
 	padding-right: 90px;
 }
 
-.header {
+header {
 	width: 100%;
 	height: 15%;
 }
@@ -73,7 +73,7 @@ h1, h2, h3 {
 	width: 80px;
 }
 
-.intro {
+article {
 	float: right;
 	width: 60%;
 	text-align: right;
@@ -94,12 +94,12 @@ hr {
 	height: 45%;
 }
 
-.featured {
+footer {
 	width: 100%;
 	height: 35%;
 }
 
-.featured h2 {
+footer h2 {
 	padding-left: 15px;
 }
 
@@ -128,7 +128,7 @@ td {
 		width: 100%;
 		padding: 5px;
 	}
-	.header {
+	header {
 		height: 22%;
 	}
 	.logo {
@@ -141,7 +141,7 @@ td {
 	.chef {
 		padding: 10px;
 	}
-	.header {
+	header {
 		height: 20%;
 	}
 	.sidebar {
