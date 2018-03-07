@@ -25,6 +25,12 @@ h1, h2, h3 {
 	font-weight: normal;
  }
  
+ .imgstyle {
+	 border:0;
+	 width:88px;
+	 height:31px;
+ }
+ 
  /*the general container for all elements*/
 .chef {
 	display: flex;
